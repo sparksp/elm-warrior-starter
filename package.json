@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "dev": "parcel serve --no-source-maps src/index.html",
-    "prod:compile": "parcel build --no-source-maps src/index.html"
+    "build": "parcel build src/index.html",
+    "dev": "parcel serve src/index.html"
   },
   "devDependencies": {
     "elm": "0.19.1-3",
